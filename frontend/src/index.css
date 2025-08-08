@@ -1,0 +1,43 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+@tailwind utilities;
+:root {
+  --ff: "Inter", sans-serif;
+  --color-primary: hsl(44, 50%, 90%); 
+  --color-secondary: hsl(43, 60%, 21%); 
+  --color-tertiary: hsl(104, 80%, 20%); 
+  --color-accent: hsl(344, 84%, 45%); 
+  --fs-base: 1rem;      
+  --fs-sm: 0.875rem;     
+  --fs-lg: 1.125rem;     
+  --fs-xl: 1.25rem;      
+  --lh: 1.4em;
+
+  body {
+    font-family: var(--ff);
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+  }
+}
+
+.dark {
+  --color-primary: hsl(43, 47%, 13%); 
+  --color-secondary: hsl(44, 50%, 90%); 
+  --color-tertiary: hsl(104, 80%, 80%); 
+  --color-accent: hsl(344, 80%, 80%); 
+  body {
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+  }
+}
+
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+  display: none;
+}
+input[type="password"]::-webkit-credentials-auto-fill-button {
+  display: none !important;
+}
+input[type="password"]::-webkit-textfield-decoration-container {
+  display: none !important;
+}
