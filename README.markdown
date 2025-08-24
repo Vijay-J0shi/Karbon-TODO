@@ -4,6 +4,10 @@ KarbonTODO is a task management application with a custom authentication system 
 
 Website link - https://karbon-todo-frontend.onrender.com
 
+Video link - https://drive.google.com/file/d/1-x5MXPfWvCI-rFxSFTHn4aBBNMz4QIQt/view?usp=sharing
+
+Documentation - https://drive.google.com/file/d/1vzjl_z1qBVg4sppBUvEUAAThkSyxQ_So/view?usp=sharing
+
 ## Tools Used
 
 ### Frontend
