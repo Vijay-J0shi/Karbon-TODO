@@ -15,7 +15,7 @@ let app= express()
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://karbon-todo-frontend.onrender.com",
     credentials:true
 }))
 
@@ -28,3 +28,4 @@ app.listen(port,()=>{
     connectDb();
     console.log(`Server Started at ${port}`)
 })
+
